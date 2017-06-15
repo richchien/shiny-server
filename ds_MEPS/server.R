@@ -1,4 +1,13 @@
 # server.R
+library(shiny) 
+library(shinydashboard)
+library(DT) 
+library(tidyverse)
+library(survey)
+library(DBI)
+library(data.table)
+library(ggplot2)
+library(RSQLite)
 
 # connect to db
 sqlitePath <- "dbmeps"
